@@ -1,5 +1,3 @@
-require 'pry'
-
 class MainController < ApplicationController
   def index
   end
