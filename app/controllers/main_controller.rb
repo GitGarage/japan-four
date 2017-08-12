@@ -9,7 +9,6 @@ class MainController < ApplicationController
   end
 
   def save_words
-    Word.import_list(params[:list], params[:words])
-    render json: true
+    render json: Word.import_list(params[:list], params[:words])
   end
 end

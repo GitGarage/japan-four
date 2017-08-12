@@ -189,7 +189,7 @@ app.controller("MasterCtrl", ['$scope', 'get_words', 'save_words', function ($sc
 
     $scope.save = function()
     {
-      save_words.save({list:$scope.currentList,words:$scope.defaultWords}, function(){
+      save_words.save({list:$scope.currentList,words:$scope.defaultWords}, function(resp){
         $scope.edit();
       });
     };
