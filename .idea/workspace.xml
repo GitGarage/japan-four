@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e80e1177-9e19-4ddc-a294-e51f4217c79b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/angular/MasterCtrl.js.erb" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular/MasterCtrl.js.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main/_game.html.erb" afterPath="$PROJECT_DIR$/app/views/main/_game.html.erb" />
     </list>
     <ignored path="japanfour.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,12 +41,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MasterCtrl.js.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MasterCtrl.js.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/MasterCtrl.js.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="210" column="85" selection-start-line="210" selection-start-column="85" selection-end-line="210" selection-end-column="85" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_game.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/main/_game.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,16 +114,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="word.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/word.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_listPick.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/main/_listPick.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -157,6 +160,7 @@
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/main_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/angular/MasterCtrl.js.erb" />
+        <option value="$PROJECT_DIR$/app/views/main/_game.html.erb" />
       </list>
     </option>
   </component>
@@ -487,12 +491,12 @@
       <updated>1502513196867</updated>
       <workItem from="1502513198591" duration="21000" />
       <workItem from="1502513227058" duration="17933000" />
-      <workItem from="1502535749424" duration="145000" />
+      <workItem from="1502535749424" duration="453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18099000" />
+    <option name="totallyTimeSpent" value="18407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="1" />
@@ -771,6 +775,17 @@
         <state relative-caret-position="285">
           <caret line="210" column="85" selection-start-line="210" selection-start-column="85" selection-end-line="210" selection-end-column="85" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main/_game.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
