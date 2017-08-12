@@ -209,7 +209,7 @@ app.controller("MasterCtrl", ['$scope', 'get_words', 'save_words', function ($sc
         $('#menu').fadeOut(500);
         $('#edit').fadeOut(500);
         $scope.currentList = parseInt($('#ListTitles').find('option:selected').val());
-        get_words.get({list:$scope.currentList - 1}, function(resp)
+        get_words.get({list:$scope.currentList}, function(resp)
         {
             $scope.defaultWords = resp.words;
 
