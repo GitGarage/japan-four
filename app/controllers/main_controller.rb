@@ -3,7 +3,7 @@ class MainController < ApplicationController
   end
 
   def get_words
-    lists = params[:list].chop.split(',').map{|list| list.to_i + 1}
+    lists = params[:list].split(',').map{|list| list.to_i + 1}
     render json: {words: Word.where(list_id:lists)
                              .pluck(:english,:japanese).uniq}.as_json
   end
