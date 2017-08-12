@@ -1,3 +1,15 @@
+
+
+
+var app = angular.module('app', ['ngResource', 'ngRoute', 'ngSanitize', 'ngDragDrop', 'ui.bootstrap']);
+
+app.factory('get_words', ['$resource', function ($resource) {
+    return $resource('/main/get_words');
+}]);
+
+app.factory('save_words', ['$resource', function ($resource) {
+    return $resource('/main/save_words');
+}]);
 app.controller("MasterCtrl", ['$scope', 'get_words', 'save_words', function ($scope, get_words, save_words) {
     $scope.japanesetext = [
         "あ", "か", "さ", "た", "な", "は", "ま", "や", "ゃ", "ら", "わ", "が", "ざ", "だ", "ば", "ぱ",
