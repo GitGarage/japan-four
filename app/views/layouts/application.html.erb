@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+  <title>Japan Four</title>
+  <%= stylesheet_link_tag    "application", media: "all" %>
+  <%= javascript_include_tag "application", controller_name %>
+  <span style="display:none">Japanese vocab game (Japanese Typing Game): Free vocabulary / flashcard typing game. Type in Japanese without additional software!</span>
+</head>
+<body>
+<table style="margin-top:21.6em;width:100%;">
+<tr>
+  <td></td>
+  <td style="width:400px">
+    <%= yield %>
+  </td>
+  <td></td>
+</tr>
+</table>
+</body>
+</html>

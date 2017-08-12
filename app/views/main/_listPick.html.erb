@@ -1,0 +1,24 @@
+<div id="listPick" style="display:none; position:absolute; top:20.9em;">
+  <table>
+    <tbody><tr>
+      <td>
+        <select name="chooseList"
+                id="chooseList"
+                size="7"
+                class="ListButtons"
+                ng-model="thisPick"
+                ng-options="pick[1] as pick[0] for pick in picks"
+                style="height: 200px"
+                multiple>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input id="Done" value="Done" class="ListButtons" ng-click="menu()"
+               style="text-align: center; width:395px;">
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

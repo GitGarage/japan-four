@@ -1,0 +1,23 @@
+<div id="flip" style="display:none; position:absolute; top:21em;">
+  <div id="toptop2">
+    <table style="border-spacing:0px;width:400px;height:30px;border:2px solid white;margin-bottom:20px" onclick="$('#thisBoxer2').get(0).focus();">
+      <tbody><tr>
+        <td style="background-color:red;border:0px;" class="boxes2" onclick="$('#thisBoxer2').get(0).focus();"  ng-repeat="card in cards">
+          <input disabled="disabled" style="display:none" id="{{card.japanese}}" class="{{card.english}}" value="{{toEnglish(card.japanese)}}">
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <div id="top2" style="position:relative; left:-.2em; top:.1em; margin-bottom: 10px; color: white;;" onclick="$('#thisBoxer2').get(0).focus();">
+
+  </div>
+  <div id="bottom2" style="width:400px; position:relative; left:-.2em; top:.1em; letter-spacing: -3px;" onclick="$('#thisBoxer2').get(0).focus();" onload="$('#thisBoxer2').get(0).focus();">
+    <span style="border-spacing:0" id="shown2" onclick="$('#thisBoxer2').get(0).focus();" ng-bind="answer">Hit Esc to skip word.<br></span>
+    <img style="position:relative; left:-.2em; top:.1em" src="/assets/cursor.gif" onclick="$('#thisBoxer2').get(0).focus();">
+    <input id="thisBoxer2" ng-keyup="gameButton($event,'2')" type="text" style="text-align:right;border:none;padding:0px;height:1px;width:400px;background-color:red;color:red;outline-color:red">
+    <br>
+  </div>
+  <input id="Done2" value="Done" class="ListButtons" ng-click="menu()"
+         style="text-align: center; width:395px;">
+</div>

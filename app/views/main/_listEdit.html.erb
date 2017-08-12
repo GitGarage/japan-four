@@ -1,0 +1,39 @@
+<div id="listEdit" style="display:none; position:absolute; top:21em;">
+  <table>
+    <tbody><tr>
+      <td colspan="4">
+        <input style="width:100%;" id="English" name="English" type="text" class="ListButtons" ng-keyup="setWord($event)">
+        <input style="width:100%;" id="Japanese" name="Japanese" type="text" class="ListButtons" ng-keyup="transcribe($event)">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <select id="listWords" name="ListTitles" size="3" class="ListButtons" ng-model="theseWords"
+                ng-options="words[1] as words[0] for words in defaultWords" ng-click="fillBoxes()">
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button id="Add" class="ListButtons" ng-click="addWord()">
+          Add
+        </button>
+      </td>
+      <td>
+        <button id="Remove" class="ListButtons" ng-click="remove()">
+          Remove
+        </button>
+      </td>
+      <td>
+        <button id="Back" class="ListButtons" ng-click="edit()">
+          Back
+        </button>
+      </td>
+      <td>
+        <button id="Save" class="ListButtons" ng-click="save()">
+          Save
+        </button>
+      </td>
+    </tr>
+    </tbody></table>
+</div>

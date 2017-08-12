@@ -1,0 +1,28 @@
+<div id="edit" style="display:none; position:absolute; top:20.3em;">
+  <table>
+    <tbody><tr>
+      <td colspan="4">
+        <select id="ListTitles"
+                size="6"
+                class="ListButtons"
+                ng-model="pickList"
+                ng-options="list[1] as list[0] for list in lists"
+                ng-dblclick="listEdit()">
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button id="Edit" ng-click="listEdit()" class="ListButtons" />
+          Edit
+        </button>
+      </td>
+      <td>
+        <button id="Back" ng-click="menu()" class="ListButtons" />
+          Back
+        </button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

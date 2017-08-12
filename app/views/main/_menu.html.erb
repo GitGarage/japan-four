@@ -1,0 +1,30 @@
+<div id="menu">
+  <a href="#" ng-click="game()">
+    <img id="pic1"
+         src="/assets/japaneseToEnglish.png"
+         ng-style="{'margin-bottom':'12px', border:'0px'}"
+         ng-mouseover="fireItUp($event, 0)"
+         ng-mouseleave="douseIt($event, 0)"/>
+  </a>
+  <a href="#" ng-click="flip()">
+    <img id="pic2"
+         src="/assets/englishToJapanese.png"
+         ng-style="{'margin-bottom':'12px', border:'0px'}"
+         ng-mouseover="fireItUp($event, 1)"
+         ng-mouseleave="douseIt($event, 1)"/>
+  </a>
+  <a href="#" ng-click="listPick()">
+    <img id="pic3"
+         src="/assets/pickLists.png"
+         ng-style="{'margin-bottom':'12px', border:'0px'}"
+         ng-mouseover="fireItUp($event, 2)"
+         ng-mouseleave="douseIt($event, 2)"/>
+  </a>
+  <a href="#" ng-click="edit()">
+    <img id="pic4"
+         src="/assets/editLists.png"
+         ng-style="{'margin-bottom':'0px', border:'0px'}"
+         ng-mouseover="fireItUp($event, 3)"
+         ng-mouseleave="douseIt($event, 3)"/>
+  </a>
+</div>
