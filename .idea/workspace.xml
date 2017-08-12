@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e80e1177-9e19-4ddc-a294-e51f4217c79b" name="Default" comment="" />
+    <list default="true" id="e80e1177-9e19-4ddc-a294-e51f4217c79b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/angular/MasterCtrl.js.erb" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular/MasterCtrl.js.erb" />
+    </list>
     <ignored path="japanfour.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -42,8 +44,8 @@
       <file leaf-file-name="MasterCtrl.js.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/MasterCtrl.js.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+            <state relative-caret-position="121">
+              <caret line="211" column="3" selection-start-line="211" selection-start-column="3" selection-end-line="211" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -490,12 +492,12 @@
       <updated>1502513196867</updated>
       <workItem from="1502513198591" duration="21000" />
       <workItem from="1502513227058" duration="17933000" />
-      <workItem from="1502535749424" duration="888000" />
+      <workItem from="1502535749424" duration="1148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18842000" />
+    <option name="totallyTimeSpent" value="19102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="203" y="139" width="1717" height="941" extended-state="0" />
@@ -782,8 +784,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/MasterCtrl.js.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+        <state relative-caret-position="121">
+          <caret line="211" column="3" selection-start-line="211" selection-start-column="3" selection-end-line="211" selection-end-column="3" />
           <folding />
         </state>
       </provider>
