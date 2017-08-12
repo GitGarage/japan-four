@@ -1,0 +1,315 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+ */
+/* line 19, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+html {
+  background-image: url(j4BG.png);
+  background-color: #800;
+  background-repeat: no-repeat;
+  background-position: top center;
+  /*background-size: auto 100%;*/
+  /*height: 100%;*/
+  display: block;
+}
+
+/*.showBox {
+    display: inline-block;
+}*/
+/* line 33, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+.gameBox {
+  color: white;
+  /*border: 3px solid black;*/
+  /*margin-top: 31px;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+  height: 620px;
+  display: block;
+  text-align: center;
+  font-size: xx-large;
+}
+
+/* line 46, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+button.gameBox {
+  background-color: navajowhite;
+  color: #800;
+  border: 3px solid #800;
+}
+
+/* line 52, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+.topMenuButtons {
+  font-size: xx-large;
+  margin-bottom: 22px;
+  width: 400px;
+}
+
+/* line 58, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+.ListButtons {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #db4f4a;
+  background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+  background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEE5F5B', endColorstr='#FFBD362F', GradientType=0);
+  border-color: #bd362f #bd362f #802420;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  width: 100%;
+  font-size: 25px;
+}
+
+/* line 76, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+select option {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* line 82, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+select option[selected="selected"] {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* line 88, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+table {
+  width: 400px;
+}
+
+/* line 92, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+#Done:hover {
+  cursor: pointer;
+}
+
+/*
+body {
+    background-color: #fff;
+    border-top: solid 10px #000;
+    color: #333;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+*/
+/* line 107, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+a {
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+}
+
+/* line 113, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+#top {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  height: 50px;
+  width: 400px;
+  top: 100%;
+  font-size: xx-large;
+  color: white;
+  vertical-align: central;
+  text-align: center;
+}
+
+/* line 125, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+#bottom {
+  height: 50%;
+  top: 100%;
+  font-size: xx-large;
+  color: white;
+  vertical-align: central;
+  text-align: center;
+}
+
+/* line 135, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+#thisBoxer {
+  height: 1px;
+}
+
+/* line 139, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+#top2 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  height: 50px;
+  width: 400px;
+  top: 100%;
+  font-size: xx-large;
+  color: white;
+  vertical-align: central;
+  text-align: center;
+}
+
+/* line 151, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+#bottom2 {
+  height: 50%;
+  top: 100%;
+  font-size: xx-large;
+  color: white;
+  vertical-align: central;
+  text-align: center;
+}
+
+/* line 161, /root/Projects/japanfour/app/assets/stylesheets/main.scss */
+#thisBoxer2 {
+  height: 1px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+html {
+    background-image: url(j4BG.png);
+    background-color: #800;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    display: block;
+}
+
+.gameBox {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    height: 620px;
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+}
+
+button.gameBox {
+    background-color: navajowhite;
+    color: #800;
+    border: 3px solid #800;
+}
+
+.topMenuButtons {
+    font-size: xx-large;
+    margin-bottom: 22px;
+    width: 400px;
+}
+
+.ListButtons {
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    background-color: #db4f4a;
+    background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+    background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+    background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+    background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEE5F5B', endColorstr='#FFBD362F', GradientType=0);
+    border-color: #bd362f #bd362f #802420;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    width: 100%;
+    font-size: 25px;
+}
+
+select option {
+    background: rgba(0,0,0,0.3);
+    color:#fff;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+
+select option[selected="selected"]{
+    background: rgba(0,0,0,0.3);
+    color:#fff;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+
+table {
+    width: 400px;
+}
+
+#Done:hover {
+    cursor: pointer;
+}
+
+a {
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+#top {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 50px;
+    width: 400px;
+    top: 100%;
+    font-size: xx-large;
+    color: white;
+    vertical-align: central;
+    text-align: center;
+}
+
+#bottom {
+
+    height: 50%;
+    top: 100%;
+    font-size: xx-large;
+    color: white;
+    vertical-align: central;
+    text-align: center;
+}
+
+#thisBoxer {
+    height: 1px;
+}
+
+#top2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 50px;
+    width: 400px;
+    top: 100%;
+    font-size: xx-large;
+    color: white;
+    vertical-align: central;
+    text-align: center;
+}
+
+#bottom2 {
+
+    height: 50%;
+    top: 100%;
+    font-size: xx-large;
+    color: white;
+    vertical-align: central;
+    text-align: center;
+}
+
+#thisBoxer2 {
+    height: 1px;
+}
