@@ -54,8 +54,8 @@
       <file leaf-file-name="MasterCtrl.js.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/MasterCtrl.js.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="211" column="50" selection-start-line="211" selection-start-column="50" selection-end-line="211" selection-end-column="50" />
+            <state relative-caret-position="181">
+              <caret line="71" column="19" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -441,12 +441,12 @@
       <option name="presentableId" value="Default" />
       <updated>1502513196867</updated>
       <workItem from="1502513198591" duration="21000" />
-      <workItem from="1502513227058" duration="16311000" />
+      <workItem from="1502513227058" duration="16509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16332000" />
+    <option name="totallyTimeSpent" value="16530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="7" />
@@ -668,8 +668,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/MasterCtrl.js.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="211" column="50" selection-start-line="211" selection-start-column="50" selection-end-line="211" selection-end-column="50" />
+        <state relative-caret-position="181">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="19" />
           <folding />
         </state>
       </provider>
